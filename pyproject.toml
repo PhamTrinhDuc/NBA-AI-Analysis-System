@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nba ai analysis system"
+version = "0.1.0"
+description = ""
+authors = ["PhamTrinhDuc <duc78240@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ultralytics = "^8.3.134"
+opencv-python = "^4.11.0.86"
+pytest = "^8.3.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
